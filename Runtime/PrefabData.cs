@@ -2,15 +2,15 @@ namespace KANIYONIKA.ECSPrefabHelper
 {
     using Unity.Entities;
 
-    public struct PrefabTag : ITagComponentData { }
+    public struct ECSPrefabTag : ITagComponentData { }
 
     [System.Serializable]
-    public struct PrefabData : IComponentData
+    public struct ECSPrefabData : IComponentData
     {
     }
 
     [System.Serializable]
-    public struct PrefabBuffer : IBufferElementData
+    public struct ECSPrefabBuffer : IBufferElementData
     {
         public Entity Prefab;
     }

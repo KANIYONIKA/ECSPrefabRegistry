@@ -5,11 +5,11 @@ namespace KANIYONIKA.ECSPrefabHelper
 
 
     [BurstCompile]
-    public readonly partial struct PrefabHelper
+    public readonly partial struct ECSPrefabHelper
     {
-        private readonly DynamicBuffer<PrefabBuffer> _buffer;
+        private readonly DynamicBuffer<ECSPrefabBuffer> _buffer;
 
-        public PrefabHelper(DynamicBuffer<PrefabBuffer> buffer)
+        public ECSPrefabHelper(DynamicBuffer<ECSPrefabBuffer> buffer)
         {
             _buffer = buffer;
         }
